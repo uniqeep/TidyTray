@@ -1,0 +1,32 @@
+#include <winver.h>
+
+1 24 "app.manifest"
+201 RCDATA "Tray.png"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404b0"
+    BEGIN
+      VALUE "CompanyName", "TidyTray"
+      VALUE "FileDescription", "TidyTray"
+      VALUE "FileVersion", "1.0.0"
+      VALUE "InternalName", "TidyTray"
+      VALUE "OriginalFilename", "TidyTray.exe"
+      VALUE "ProductName", "TidyTray"
+      VALUE "ProductVersion", "1.0.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x804, 1200
+  END
+END
